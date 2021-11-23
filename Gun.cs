@@ -4,12 +4,12 @@ using System.Collections;
 
 public class Gun : MonoBehaviour {
 		
-	public float damage = 10f; //переменная - урон от оружия
-	public float range = 100f; //п. - дальность оружия
+    public float damage = 10f; //переменная - урон от оружия
+    public float range = 100f; //п. - дальность оружия
 
-	public Camera fpsCam; //ссылка на нашу камеру
-	public ParticleSystem muzzleFlash; //ссылка на эффект выстрела
-	public GameObject impactEffect; //ссылка на эффект попадания
+    public Camera fpsCam; //ссылка на нашу камеру
+    public ParticleSystem muzzleFlash; //ссылка на эффект выстрела
+    public GameObject impactEffect; //ссылка на эффект попадания
 
     public int maxAmmo = 10; // переменная, в которой указан максимум патронов
     private int currentAmmo; // переменная для кол-ва патронов на данный момент
